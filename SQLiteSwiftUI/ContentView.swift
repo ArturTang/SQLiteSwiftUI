@@ -9,29 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            
-            VStack {
-                
-                // create link to add user
-                HStack {
-                    Spacer()
-                    NavigationLink (destination: AddExpenseView(), label: {
-                        Text("Add expense")
-                    })
-                }
-                
-                // list view goes here
-                
-            }.padding()
-                .navigationBarTitle("Мy Expenses")
+        TabView {
+            SQLiteView()
+            .tabItem {
+                Label("My Costs", systemImage: "list.dash")
+            }
+
+            ChartView()
+            .tabItem {
+                Label("Chart", systemImage: "chart.bar")
+            }
         }
     }
 }
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
+}
 

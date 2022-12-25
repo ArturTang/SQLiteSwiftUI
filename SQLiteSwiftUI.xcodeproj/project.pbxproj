@@ -8,24 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		043E5B7E42DE416F19CE8C86 /* Pods_SQLiteSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC22D52E9050F0E00BA21889 /* Pods_SQLiteSwiftUI.framework */; };
+		265B377029574D7500C4F4E4 /* SQLiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B376F29574D7500C4F4E4 /* SQLiteView.swift */; };
+		265B377229574E3300C4F4E4 /* EditExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B377129574E3300C4F4E4 /* EditExpenseView.swift */; };
+		265B37742957900F00C4F4E4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B37732957900F00C4F4E4 /* ChartView.swift */; };
 		26832614293C0777005C875A /* SQLiteSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26832613293C0777005C875A /* SQLiteSwiftUIApp.swift */; };
 		26832616293C0777005C875A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26832615293C0777005C875A /* ContentView.swift */; };
 		26832618293C0778005C875A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26832617293C0778005C875A /* Assets.xcassets */; };
 		2683261B293C0778005C875A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2683261A293C0778005C875A /* Preview Assets.xcassets */; };
+		2688797329588D5D007087A8 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2688797229588D5D007087A8 /* SwiftUICharts */; };
 		26C9986129411CBF008753D3 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 26C9986029411CBF008753D3 /* SQLite */; };
 		26C9986329411FD1008753D3 /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C9986229411FD1008753D3 /* ExpenseModel.swift */; };
-		26C9986529412212008753D3 /* DB_manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C9986429412212008753D3 /* DB_manager.swift */; };
+		26C9986529412212008753D3 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C9986429412212008753D3 /* DBManager.swift */; };
 		26C9986D29424C90008753D3 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C9986C29424C90008753D3 /* AddExpenseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		265B376F29574D7500C4F4E4 /* SQLiteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteView.swift; sourceTree = "<group>"; };
+		265B377129574E3300C4F4E4 /* EditExpenseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditExpenseView.swift; sourceTree = "<group>"; };
+		265B37732957900F00C4F4E4 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		26832610293C0777005C875A /* SQLiteSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26832613293C0777005C875A /* SQLiteSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteSwiftUIApp.swift; sourceTree = "<group>"; };
 		26832615293C0777005C875A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26832617293C0778005C875A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2683261A293C0778005C875A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26C9986229411FD1008753D3 /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
-		26C9986429412212008753D3 /* DB_manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_manager.swift; sourceTree = "<group>"; };
+		26C9986429412212008753D3 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		26C9986C29424C90008753D3 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		51694BF3D1B3D52722614716 /* Pods-SQLiteSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-SQLiteSwiftUI/Pods-SQLiteSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		EC22D52E9050F0E00BA21889 /* Pods_SQLiteSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLiteSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2688797329588D5D007087A8 /* SwiftUICharts in Frameworks */,
 				26C9986129411CBF008753D3 /* SQLite in Frameworks */,
 				043E5B7E42DE416F19CE8C86 /* Pods_SQLiteSwiftUI.framework in Frameworks */,
 			);
@@ -66,10 +74,13 @@
 		26832612293C0777005C875A /* SQLiteSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				265B37732957900F00C4F4E4 /* ChartView.swift */,
+				265B377129574E3300C4F4E4 /* EditExpenseView.swift */,
+				265B376F29574D7500C4F4E4 /* SQLiteView.swift */,
 				26832613293C0777005C875A /* SQLiteSwiftUIApp.swift */,
 				26832615293C0777005C875A /* ContentView.swift */,
 				26C9986C29424C90008753D3 /* AddExpenseView.swift */,
-				26C9986429412212008753D3 /* DB_manager.swift */,
+				26C9986429412212008753D3 /* DBManager.swift */,
 				26C9986229411FD1008753D3 /* ExpenseModel.swift */,
 				26832617293C0778005C875A /* Assets.xcassets */,
 				26832619293C0778005C875A /* Preview Content */,
@@ -122,6 +133,7 @@
 			name = SQLiteSwiftUI;
 			packageProductDependencies = (
 				26C9986029411CBF008753D3 /* SQLite */,
+				2688797229588D5D007087A8 /* SwiftUICharts */,
 			);
 			productName = SQLiteSwiftUI;
 			productReference = 26832610293C0777005C875A /* SQLiteSwiftUI.app */;
@@ -153,6 +165,7 @@
 			mainGroup = 26832607293C0776005C875A;
 			packageReferences = (
 				26C9985F29411CBE008753D3 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				2688797129588D5D007087A8 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 26832611293C0777005C875A /* Products */;
 			projectDirPath = "";
@@ -226,7 +239,10 @@
 				26832616293C0777005C875A /* ContentView.swift in Sources */,
 				26C9986D29424C90008753D3 /* AddExpenseView.swift in Sources */,
 				26832614293C0777005C875A /* SQLiteSwiftUIApp.swift in Sources */,
-				26C9986529412212008753D3 /* DB_manager.swift in Sources */,
+				265B377229574E3300C4F4E4 /* EditExpenseView.swift in Sources */,
+				265B377029574D7500C4F4E4 /* SQLiteView.swift in Sources */,
+				26C9986529412212008753D3 /* DBManager.swift in Sources */,
+				265B37742957900F00C4F4E4 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +380,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +414,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +455,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2688797129588D5D007087A8 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.5;
+			};
+		};
 		26C9985F29411CBE008753D3 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
@@ -448,6 +474,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2688797229588D5D007087A8 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2688797129588D5D007087A8 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
 		26C9986029411CBF008753D3 /* SQLite */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 26C9985F29411CBE008753D3 /* XCRemoteSwiftPackageReference "SQLite.swift" */;

@@ -38,7 +38,7 @@ struct AddExpenseView: View {
                 // button to add a user
                 Button(action: {
                     // call function to add row in sqlite database
-                    DB_Manager().addExpense(category_nameValue: self.expense_name, amountValue: Int64(self.amount) ?? 0)
+                    DBManager().addExpense(category_nameValue: self.expense_name, amountValue: Int64(self.amount) ?? 0)
                      
                     // go back to home page
                     self.mode.wrappedValue.dismiss()
