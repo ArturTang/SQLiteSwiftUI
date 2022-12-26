@@ -15,7 +15,7 @@ struct ContentView: View {
                 Label("My Costs", systemImage: "list.dash")
             }
 
-            ChartView()
+            ChartView(expenseModels: DBManager().getExpenses(), expenseSelected: true, selectedExpenseId: 1)
             .tabItem {
                 Label("Chart", systemImage: "chart.bar")
             }

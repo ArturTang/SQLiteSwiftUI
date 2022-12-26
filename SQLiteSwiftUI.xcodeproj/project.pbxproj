@@ -74,14 +74,14 @@
 		26832612293C0777005C875A /* SQLiteSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				265B37732957900F00C4F4E4 /* ChartView.swift */,
-				265B377129574E3300C4F4E4 /* EditExpenseView.swift */,
-				265B376F29574D7500C4F4E4 /* SQLiteView.swift */,
-				26832613293C0777005C875A /* SQLiteSwiftUIApp.swift */,
-				26832615293C0777005C875A /* ContentView.swift */,
-				26C9986C29424C90008753D3 /* AddExpenseView.swift */,
 				26C9986429412212008753D3 /* DBManager.swift */,
 				26C9986229411FD1008753D3 /* ExpenseModel.swift */,
+				26832613293C0777005C875A /* SQLiteSwiftUIApp.swift */,
+				26832615293C0777005C875A /* ContentView.swift */,
+				265B376F29574D7500C4F4E4 /* SQLiteView.swift */,
+				26C9986C29424C90008753D3 /* AddExpenseView.swift */,
+				265B377129574E3300C4F4E4 /* EditExpenseView.swift */,
+				265B37732957900F00C4F4E4 /* ChartView.swift */,
 				26832617293C0778005C875A /* Assets.xcassets */,
 				26832619293C0778005C875A /* Preview Content */,
 			);
